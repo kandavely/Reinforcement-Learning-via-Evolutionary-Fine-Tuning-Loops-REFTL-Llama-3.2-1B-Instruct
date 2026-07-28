@@ -1,0 +1,16 @@
+{
+    "MODEL_PATH": "C:\\Users\\yoges\\Llama-3.2-1B-Instruct",
+    "CURRENT_RUNNING_FILE": "Evaluation Script",
+    "DECIDED_LORA_PATHS": [
+        "./finetuned_lora\\final_adapters_2",
+        "./finetuned_lora\\final_adapters_4",
+        "./finetuned_lora\\final_adapters_9",
+        "./finetuned_lora\\final_adapters_10",
+        "./finetuned_lora\\final_adapters_13",
+        "./finetuned_lora\\final_adapters_17",
+        "./finetuned_lora\\final_adapters_21",
+        "./finetuned_lora\\final_adapters_23",
+        "./finetuned_lora\\final_adapters_25",
+        "./finetuned_lora\\final_adapters_30"
+    ]
+}
