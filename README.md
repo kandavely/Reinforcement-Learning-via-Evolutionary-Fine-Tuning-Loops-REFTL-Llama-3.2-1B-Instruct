@@ -47,7 +47,7 @@ The experimental setup was conducted on local desktop hardware:
 * **GPU:** NVIDIA GeForce RTX 2060 SUPER
 * **Total Runtime:** ~18–19 hours with automated thermal management
 
-## Notes
-**While Training and Evaluation**
-In BBQ_Data folder there was files from https://github.com/nyu-mll/BBQ/tree/main/data and https://github.com/nyu-mll/BBQ/blob/main/supplemental/additional_metadata.csv
-In MMLU_Data folder there was data files from https://github.com/hendrycks/test 's test download link.
+## Data Sources & Provenance
+
+* **BBQ Dataset:** Data files stored in the `BBQ_Data/` directory were obtained from the official [NYU MLL BBQ repository](https://github.com/nyu-mll/BBQ/tree/main/data), along with the [supplemental metadata](https://github.com/nyu-mll/BBQ/blob/main/supplemental/additional_metadata.csv).
+* **MMLU Dataset:** Evaluation files in the `MMLU_Data/` directory were retrieved from the test distribution provided in the official [Hendrycks Test repository](https://github.com/hendrycks/test).
