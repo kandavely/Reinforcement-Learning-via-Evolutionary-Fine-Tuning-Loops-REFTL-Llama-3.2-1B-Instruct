@@ -48,6 +48,6 @@ The experimental setup was conducted on local desktop hardware:
 * **Total Runtime:** ~18–19 hours with automated thermal management
 
 ## Notes
-While Training and Evaluation
+**While Training and Evaluation**
 In BBQ_Data folder there was files from https://github.com/nyu-mll/BBQ/tree/main/data and https://github.com/nyu-mll/BBQ/blob/main/supplemental/additional_metadata.csv
 In MMLU_Data folder there was data files from https://github.com/hendrycks/test 's test download link.
