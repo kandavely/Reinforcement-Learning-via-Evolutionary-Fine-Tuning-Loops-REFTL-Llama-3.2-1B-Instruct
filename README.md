@@ -6,7 +6,7 @@ Official implementation of my thesis "Reinforcement Learning via Evolutionary Fi
 
 ---
 
-## 📌 Overview
+## Overview
 
 Large Language Models (LLMs) frequently inherit social biases present in their training data. Traditional alignment methodologies like RLHF and DPO rely heavily on human-annotated preference datasets, which are expensive, bounded in scale, and GPU-memory intensive.
 
@@ -14,7 +14,7 @@ Large Language Models (LLMs) frequently inherit social biases present in their t
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 * **Self-Directed Data Generation:** Automated synthesis of question-answer pairs using MinHash Locality-Sensitive Hashing (LSH) to prevent semantic redundancy.
 * **Quality Filtering & Self-Evaluation:** Prompt-driven debiased persona generation evaluated by a model judge and filtered using a Number Density Penalty Function to prevent structural output degeneration.
@@ -24,7 +24,7 @@ Large Language Models (LLMs) frequently inherit social biases present in their t
 
 ---
 
-## 📊 Benchmark Results
+## Benchmark Results
 
 Evaluated on **Meta Llama-3.2-1B-Instruct** across the **BBQ** (Bias Benchmark for QA) and **MMLU** (Massive Multitask Language Understanding) benchmarks:
 
@@ -39,7 +39,7 @@ Evaluated on **Meta Llama-3.2-1B-Instruct** across the **BBQ** (Bias Benchmark f
 
 ---
 
-## 🛠 Hardware Requirements
+## Hardware Requirements
 
 The experimental setup was conducted on local desktop hardware:
 * **CPU:** Intel Core i7-10700 @ 2.90GHz
@@ -47,3 +47,7 @@ The experimental setup was conducted on local desktop hardware:
 * **GPU:** NVIDIA GeForce RTX 2060 SUPER
 * **Total Runtime:** ~18–19 hours with automated thermal management
 
+## Notes
+While Training and Evaluation
+In BBQ_Data folder there was files from https://github.com/nyu-mll/BBQ/tree/main/data and https://github.com/nyu-mll/BBQ/blob/main/supplemental/additional_metadata.csv
+In MMLU_Data folder there was data files from https://github.com/hendrycks/test 's test download link.
