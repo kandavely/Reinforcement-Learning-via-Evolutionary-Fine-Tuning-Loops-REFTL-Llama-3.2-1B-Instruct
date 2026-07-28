@@ -48,6 +48,6 @@ The experimental setup was conducted on local desktop hardware:
 * **Total Runtime:** ~18–19 hours with automated thermal management
 
 ## Data Sources & Provenance
-
+* While training and evaluation these folders were not empty.
 * **BBQ Dataset:** Data files stored in the `BBQ_Data/` directory were obtained from the official [NYU MLL BBQ repository](https://github.com/nyu-mll/BBQ/tree/main/data), along with the [supplemental metadata](https://github.com/nyu-mll/BBQ/blob/main/supplemental/additional_metadata.csv).
 * **MMLU Dataset:** Evaluation files in the `MMLU_Data/` directory were retrieved from the test distribution provided in the official [Hendrycks Test repository](https://github.com/hendrycks/test).
