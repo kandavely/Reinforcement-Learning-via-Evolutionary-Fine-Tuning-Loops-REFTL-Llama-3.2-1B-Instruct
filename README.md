@@ -1,6 +1,6 @@
 # Reinforcement Learning via Evolutionary Fine-Tuning Loops (REFTL): Reducing Large Language Model Bias through Self-Directed Alignment and Multi-Adapter Merging
 Official implementation of my thesis "Reinforcement Learning via Evolutionary Fine‑Tuning Loops for LLM Debiasing"
-[Link to paper](Reinforcement Learning via Evolutionary Fine‑Tuning Loops for LLM Debiasing paper.pdf)
+[Link to paper](Reinforcement%20Learning%20via%20Evolutionary%20Fine%E2%80%91Tuning%20Loops%20for%20LLM%20Debiasing%20paper.pdf)
 
 
 **Author:** Kandavel Yogeshram
